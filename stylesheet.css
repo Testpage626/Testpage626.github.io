@@ -20,7 +20,7 @@ a {
 .top-wrapper {
  
   background-image: url(背景.png);
-
+　background-size: cover;
 }
 
 .top-wrapper h1 {
