@@ -19,6 +19,7 @@ a {
 
 .top-wrapper {
   background-size:contain　/ auto 100% no-repeat;
+  background-position: center;
 }
 
 .top-wrapper h1 {
