@@ -20,7 +20,7 @@ a {
 .top-wrapper {
   background-size: cover;
   background-repeat:no-repeat;
-  margin: 50px auto;
+  margin: 50px 50px auto;
 }
 
 .top-wrapper h1 {
