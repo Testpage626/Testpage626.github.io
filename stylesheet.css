@@ -18,7 +18,7 @@ a {
 }
 
 .top-wrapper {
-  background-size: cover;
+  background-size: contain;
   background-repeat:no-repeat;
   margin: 50px 50px auto;
 }
