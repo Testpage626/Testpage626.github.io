@@ -18,7 +18,7 @@ a {
 }
 
 .top-wrapper {
-  background-size:auto;
+  background-size:contain　left top / auto 100% no-repeat;
 }
 
 .top-wrapper h1 {
