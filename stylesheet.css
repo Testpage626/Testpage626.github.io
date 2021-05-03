@@ -18,7 +18,8 @@ a {
 }
 
 .top-wrapper {
-  background: contain　/ no-repeat;
+  background-size: cover;
+  background-repeat:no-repeat;
   background-image  : url("APEX.png");
   background-position: center;
 }
