@@ -18,9 +18,8 @@ a {
 }
 
 .top-wrapper {
-  background-size:contain　/ auto 100% no-repeat;
+  background-size:contain　/ no-repeat;
   background-position: center;
-  margin: 0px 15px 0px;
 }
 
 .top-wrapper h1 {
