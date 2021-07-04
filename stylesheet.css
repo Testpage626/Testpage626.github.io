@@ -1,25 +1,25 @@
-.menu-btn {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    width: 100px;
-    height: 50px;
-    line-height: 50px;
-    font-size: 12px;
-    text-align: center;
-    cursor: pointer;
-    z-index: 1;
-}
-
-.menu-btn span {
-    color: #fff;
-}
-
-.menu-btn span:after {
-    content: attr(data-txt-menu);
-}
-
-/* 開閉用ボタンがクリックされた時のスタイル */
-.open .menu-btn span:after {
-    content: attr(data-txt-close);
-}
+.sub-menu{
+      border-left:1px solid @WHITE;
+      margin-left:@GAP*1.5;
+      list-style:none;
+      max-height:0px;
+      overflow:hidden;
+      padding-left:@GAP/2;
+      position:relative;
+      transition:.5s;
+      z-index:1;
+      li{
+        font-size:.9em;
+        &:hover,a:focus{
+          background:fade(darken(@WHITE,75%),30%);
+        }
+        a:after{
+          bottom:5px;
+          height:1px;
+        }
+        a:hover,a:focus{
+          &:after{
+            width:15px;
+          }
+        }
+      }
